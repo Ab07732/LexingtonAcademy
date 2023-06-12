@@ -33,7 +33,7 @@ namespace LexingtonAcademy
             //    this.Close();
             //}
 
-           
+            
             string connectionString = "Data Source=AUSTINDELL;Initial Catalog=LexingtonPreschool;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             string sqlQuery = "INSERT INTO Students (FirstName, LastName, Classes) VALUES (" + "'" + tbFirstName.Text + "'" + "," + "'" + tbLastName.Text + "'" + "," + "'" + clbClasses.Text + "'" + ")";
 
@@ -45,6 +45,8 @@ namespace LexingtonAcademy
             sc.ExecuteNonQuery();
             con.Close();
             this.Close();
+            var myForm = new Form2();
+            myForm.Show();
 
         }
 

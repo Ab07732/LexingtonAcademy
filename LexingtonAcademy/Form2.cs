@@ -32,6 +32,7 @@ namespace LexingtonAcademy
         {
             var myForm = new Form1();
             myForm.Show();
+            
         }
     }
 }
