@@ -104,12 +104,12 @@
             // 
             this.clbClasses.FormattingEnabled = true;
             this.clbClasses.Items.AddRange(new object[] {
-            "Art",
+            " Art",
             "Math",
+            "P.E.",
             "Science",
             "History",
-            "Spanish",
-            "P.E."});
+            "Spanish"});
             this.clbClasses.Location = new System.Drawing.Point(724, 387);
             this.clbClasses.Name = "clbClasses";
             this.clbClasses.Size = new System.Drawing.Size(401, 268);
